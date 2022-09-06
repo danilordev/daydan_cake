@@ -1,0 +1,13 @@
+.header {
+    background: #eb8a8a;
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 103px 26px 82px;
+  box-shadow: 0px 3px 7px #00000040;
+}
+.container {
+  background: #bbff00;
+  justify-content: space-evenly;
+  display: flex;
+}
