@@ -1,54 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./imagens/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="./style.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <title>DayDan Cake</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DayDanCakes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Sabores</a>
+            <a class="nav-link" href="#">Novidades!!</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
     <header class="header">
-        <h1 class="h1header">Bolos DayDan Cake</h1>
+      <h1 class="h1header">Bolos DayDan Cake</h1>
     </header>
+    <!-- header -->
+    <div class="container">
+      <div class="row">
+        <div class="card col-3">
+          <img
+            src="./imagens/bolo morango.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bolo de limao com morango</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-warning border-danger d-grid gap-2 col-6 mx-auto"
+              >Eu querooo!</a
+            >
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="card col-3">
+          <img src="./imagens/chocolate.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bolo de brigadeiro</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-warning border-danger d-grid gap-2 col-6 mx-auto"
+              >Eu querooo!</a
+            >
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card col-3">
+          <img src="./imagens/cenoura.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">bolo de cenoura com chocolate</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-warning border-danger d-grid gap-2 col-6 mx-auto"
+              >Eu querooo!</a
+            >
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card col-3">
+          <img src="./imagens/bolo.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">bolo de Vó!</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-warning border-danger d-grid gap-2 col-6 mx-auto"
+              >Eu querooo!</a
+            >
+          </div>
+        </div>
+        <!-- 4 -->
+      </div>
+    </div>
+    <footer class="footer">
+        <h1 class="h1header">Bolos DayDan Cake</h1>
+      </footer>
 
-    <main>
-        <h2 class="h2header">sabores</h2>
-        <container class="container">
-                <p> morango com limão </p>
-                    <img src="./imagens/bolo morango.jpg" width="310px" height="200px"> 
-                <p> chocolate com brigadeiro </p> 
-                    <img src="./imagens/chocolate.jpg" width="310px" height="200px"> 
-                <p> cenoura com chocolate </p> 
-                    <img src="./imagens/cenoura.jpg" width="310px" height="200px"> 
-                <p> outros </p> 
-                <img src="./imagens/bolo.jpg" width="310px" height="200px"> 
-        </container>
-    </main>
-
-    <footer id="footer">
-
-        <h2>Formulário</h2>
-
-        <form>
-            <div>
-                <label for="name">Preencha com seu nome:</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div>
-                <label for="age">Preencha com a sua idade:</label>
-                <input type="text" id="age" name="age">
-            </div>
-            <div>
-                <label for="mood">Escolha o seu humor:</label>
-                <select id="mood" name="mood">
-                <option>Feliz</option>
-                <option>Triste</option>
-                <option>Bravo</option>
-                <option>Preocupado</option>
-    </select>
-  </div>
-</form>
-    </footer>
-</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

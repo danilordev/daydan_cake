@@ -11,3 +11,20 @@
   justify-content: space-evenly;
   display: flex;
 }
+
+.card-img-top{
+  height: 12rem;
+}
+
+.card {
+  padding: 10px;
+}
+
+.footer {
+  background: #eb8a8a;
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 20px 103px 26px 82px;
+box-shadow: 0px 3px 7px #00000040;
+}
